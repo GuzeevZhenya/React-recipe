@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { getAllCatogories } from '../api';
-import { Categorylist } from '../Components/CategoryList';
+import { getAllCategories } from '../api';
+import { Categorylist } from '../components/CategoryList';
 
 export const Home = () => {
-  const [catalog, setCatalog] = useState([]);
+  const [ catalog, setCatalog ] = useState([]);
   useEffect(() => {
-    getAllCatogories().then((data) => {
+    getAllCategories().then((data) => {
       setCatalog(data.categories);
     });
   }, []);
