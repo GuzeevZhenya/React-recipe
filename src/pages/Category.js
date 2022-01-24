@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { getFilteredCategory } from '../api';
 
-import {MealList} from '../components/MealList'
+import { Preloader } from  '../components/Prealoder'
+import { MealList } from '../components/MealList';
 
 function Category() {
     const { name } = useParams();
@@ -18,7 +19,7 @@ function Category() {
             <button className='btn' onClick={goBack}>
                 Go Back
             </button>
-            <MealList meals={meals} />
+            <MealList meals={meals}/>
         </>
     );
 }

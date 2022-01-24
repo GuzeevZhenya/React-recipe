@@ -11,9 +11,14 @@ nav {
   padding: 0 1rem;
 }
 
-.content {
+/* .content {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
+} */
+
+.recipe{
+  display:flex;
+  flex-direction: column;
 }
 
 .list{
