@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/React-recipe/static/css/main.fc048ef1.chunk.css",
-    "main.js": "/React-recipe/static/js/main.282acdae.chunk.js",
-    "main.js.map": "/React-recipe/static/js/main.282acdae.chunk.js.map",
+    "main.js": "/React-recipe/static/js/main.ecd668bb.chunk.js",
+    "main.js.map": "/React-recipe/static/js/main.ecd668bb.chunk.js.map",
     "runtime-main.js": "/React-recipe/static/js/runtime-main.1d9c0b0b.js",
     "runtime-main.js.map": "/React-recipe/static/js/runtime-main.1d9c0b0b.js.map",
-    "static/js/2.3274fa1f.chunk.js": "/React-recipe/static/js/2.3274fa1f.chunk.js",
-    "static/js/2.3274fa1f.chunk.js.map": "/React-recipe/static/js/2.3274fa1f.chunk.js.map",
+    "static/js/2.d9248080.chunk.js": "/React-recipe/static/js/2.d9248080.chunk.js",
+    "static/js/2.d9248080.chunk.js.map": "/React-recipe/static/js/2.d9248080.chunk.js.map",
     "index.html": "/React-recipe/index.html",
     "static/css/main.fc048ef1.chunk.css.map": "/React-recipe/static/css/main.fc048ef1.chunk.css.map",
-    "static/js/2.3274fa1f.chunk.js.LICENSE.txt": "/React-recipe/static/js/2.3274fa1f.chunk.js.LICENSE.txt"
+    "static/js/2.d9248080.chunk.js.LICENSE.txt": "/React-recipe/static/js/2.d9248080.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d9c0b0b.js",
-    "static/js/2.3274fa1f.chunk.js",
+    "static/js/2.d9248080.chunk.js",
     "static/css/main.fc048ef1.chunk.css",
-    "static/js/main.282acdae.chunk.js"
+    "static/js/main.ecd668bb.chunk.js"
   ]
 }
