@@ -1,21 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Header } from "./Components/Header";
+import { Footer } from "./Components/Footer";
 
-import { Home } from './pages/Home';
-import { Contact } from './pages/Contact';
-import { About } from './pages/About';
-import { NotFound } from './pages/NotFound';
-import { Category } from './pages/Category';
-
+import { Home } from "./pages/Home";
+import { Contact } from "./pages/Contact";
+import { About } from "./pages/About";
+import { NotFound } from "./pages/NotFound";
+import { Category } from "./pages/Category";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/React-recipe">
         <Header />
-        <main className="container content" />
+        {/* <main className="container content" /> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

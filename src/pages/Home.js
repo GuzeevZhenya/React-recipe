@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getAllCategories } from '../api';
-import { Categorylist } from '../components/CategoryList';
+import { Categorylist } from '../Components/CategoryList';
 
 export const Home = () => {
   const [ catalog, setCatalog ] = useState([]);
